@@ -6,7 +6,9 @@
     "start": "directus start",
     "bootstrap": "directus bootstrap",
     "schema:snapshot": "directus schema snapshot --yes ./snapshot.yml",
-    "schema:apply": "directus schema apply --yes ./snapshot.yml"
+    "schema:snapshot_v2": "directus schema snapshot --yes ./snapshot_v2.yml",
+    "schema:apply": "directus schema apply --yes ./snapshot.yml",
+    "schema:apply_v2": "directus schema apply --yes ./snapshot_v2.yml"
   },
   "dependencies": {
     "directus": "^9.23.1",
